@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rielle Cajeras - Pizza Order <Form></Form></title> 
+</head>
+
+
+<body>
+     <h1>Pizza Order Form</h1><br>
+
+    <!--need this for a form-->
+    <form action = "https://httpbin.org/get" method = "get">
+
+    <!--
+        2. Name input
+        name on the order
+    -->
+    <label for = "name" ><strong>Name: </strong></label>
+    <input type = "text" id = "name" name = "firstname>" required>
+    <br><br>
+
+
+    <!--service choice - delivery or carryout-->
+    <label for = "serviceChoice" ><strong> Choice of service: </strong></label>
+    <input type = "text" name = "serviceChoice" id = "serviceChoice" list = "serviceList" placeholder="Delivery or pickup" required>
+    <datalist id = "serviceList">
+        <option value = "Carry Out">
+        <option value = "Delivery">
+        <option value = "Curbside PickUp">
+    </datalist>
+    <br><br>
+
+
+   <!--
+        1. fieldset
+        pizza toppings
+    -->
+    <fieldset>
+        <legend><strong>Choice of toppings: </strong></legend>
+
+        <input type = "checkbox" id = "pepperoni" name = "meats"/>
+        <label for = "pepperoni">Pepperoni&nbsp;</label>
+
+        <input type = "checkbox" id = "sausage" name = "meats"/>
+        <label for = "sausage">Sausage&nbsp;&nbsp;</label>
+
+        <input type = "checkbox" id = "salami" name = "meats"/>
+        <label for = "salami">Salami&nbsp;&nbsp;</label>
+
+        <input type = "checkbox" id = "bacon" name = "meats"/>
+        <label for = "bacon">Bacon&nbsp;&nbsp;</label>
+        <br><br>
+
+        <input type = "checkbox" id = "provolone" name = "cheese"/>
+        <label for = "provolone">Provolone&nbsp;&nbsp;</label>
+
+        <input type = "checkbox" id = "asiago" name = "cheese"/>
+        <label for = "asiago">Asiago&nbsp;&nbsp;</label>
+
+        <input type = "checkbox" id = "mozarella" name = "meats"/>
+        <label for = "mozarella">Mozarella&nbsp;&nbsp;
+            
+        </label>
+   </fieldset>
+    <br>
+
+
+    <!--
+        3. Scrolling textbox(textarea)
+        notes
+    -->
+   <label for = "instructions"><strong>Instructions: </strong></label>   <br>
+
+   <textarea id = "instructions" name = "instructions" rows = "6" cols="50">Anything you would like the driver to know please enter here.</textarea>   <br>
+   
+   <!--4. submit button-->
+    <input type="submit">   
+    <input type = "reset">
+    </form>
+</body>
+</html>
