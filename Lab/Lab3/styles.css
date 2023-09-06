@@ -1,0 +1,26 @@
+p {
+  font-size: 1rem;
+}
+
+#id {
+  border: 2px dotted green;
+}
+
+.class {
+  border-radius: 4px;
+}
+
+body {
+  background: green;
+}
+
+
+header {
+  width: 100%;
+  border: 8px dotted orange;
+  <!--display: flex;-->
+  align-items: center;
+  margin: 20 auto;
+  text-align: center;
+  background: yellow;
+}
