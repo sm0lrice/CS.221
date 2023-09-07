@@ -12,55 +12,57 @@
 
 <body>
   <header>
-    <h1 id = "myName"> Rielle Cajeras</h3> <!--my name-->
-    
-    <p class="description"> Hello, this is one of my primary attempts at creating a website with HTML.
-    </p> <!--about me ( brief intro)-->
-    
-    <!--navigation links
+    <h1 id = "myName">Rielle Cajeras</h3> <!--my name-->
+  </header>
+
+  <!--about me ( brief intro)-->
+  <p class="description" id="miniIntro"> Hello, this is one of my primary attempts at creating a website with HTML.
+  </p>
+
+      <!--navigation links
     should i  make a table of links for organization? -->
     <nav>
         
-        <a href = "#me" class="links" > About me</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href = "#projects" class="links"> Projects</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href = "#contactInfo" class="links"> Contact me</a>
-        
-    </nav>
-  </header>
+      <a href = "#me" class="links" > About me</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href = "#projects" class="links"> Projects</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href = "#contactInfo" class="links"> Contact me</a>
+      
+  </nav>
 
   <br><br><br><br><br><br>
   <!--about me section-->
 <section>
   <!--additional option: add image of myself?? -->
 
-  <h2 id ="me" class="names"> About me </h2>
+  <!--why is the center alignment weird between about and everything else?-->
+  <h2 id ="sectionHeader" class="names">About me:</h2>
 
   <!--list of skills-->
   <ul>
       <h4 class="names"><strong>Skills: </strong></h4>
-      <li>Creating websites</li>
-      <li>Coding in Python, C, Java</li>
+      <p class="description">Creating websites</p>
+      <p class="description">Coding in Python, C, Java<p>
     <br>
   <!--hobbies & interests-->
-      <h4 class="names"><strong> Hobbies & Interests </strong></h4>
-      <li>Building keyboards</li>
-      <li>Playing all kinds of games</li>
+      <h4 class="names"><strong> Hobbies & Interests: </strong></h4>
+      <p class="description">Building keyboards</p>
+      <p class="description">Play all kinds of games</p>
   </ul>
 </section>
 
 <br><br><br>
 <!--projects section-->
 <section >
-  <h2 id = "projects" class="names"> Projects: </h2>
+  <h2 id = "sectionHeader" class="names"> Projects: </h2>
   <ul>
-      <li class="names"><strong>Project: Pizza Form</strong></li>
+      <h4 class="names">Project: Pizza Form</h4>
       <p class="description">Description: Create a sample pizza form where users can enter the name they would like to use on the order, to pick up or deliver the order, the toppings they want on their pizza, and any delivery instructions.</p>
       <a href = "https://github.com/sm0lrice/CS.221/blob/77523f2cc9b4f2f6b63f546492240ff9b0f01729/Homework/HW3/rcajeras.hw3.html" class="links"> Sample Pizza Form</a>
       <br><br><br><br>
 
-      <li class="names"><strong>Project: JavaJam Coffee Bar Website</strong></li>
+      <h4 class="names" >Project: JavaJam Coffee Bar Website</h4>
       <p class="description">Description: Create a business website for JavaJam Coffee Bar where the user can access upcoming events, music, job openings, and the menu. </p>
       <a href = "https://github.com/sm0lrice/CS.221/tree/18cbdb82187fde190edfa599d8d015ff345eaca0/Homework/HW2" class="links">JavaJam Coffee Bar Website Concept</a>
   </ul>
@@ -70,10 +72,10 @@
 
 <!--contact information section-->
 <section id="myInfo">
-  <h5 id = "contactInfo" class="names">Contact Information</h5>
-  <a href = "mailto:rccajeras@uab.edu" class="links"><i><small>Email me</small></i></a> <!--email to anchor-->
+  <h6 id = "contactInfo" class="names">Contact Information</h6>
+  <a href = "mailto:rccajeras@uab.edu" class="links" id="meee">Email me</a> <!--email to anchor-->
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href = "https://github.com/sm0lrice/CS.221.git" class="links"><i><small>Github</small></a></i>
+  <a href = "https://github.com/sm0lrice/CS.221.git" class="links" id="meee">Github</a>
 </section>
 
 <br>

@@ -1,37 +1,47 @@
 
 
-#description {
+.description {
   font-family: 'Courier New';
+  font-size: .75em;
 }
-#names{
-  font-size: medium;
+/*Changed the mini intro text color to bisque for a good contrast*/
+#miniIntro{
+  color: bisque;
+}
+.names{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
 }
+/*enhancing my name with double boders, different color, and align to the center*/
 #myName{
-font-family: Cambria;
-}
-header {
-  border: 8px double black;
+  font-family: Cambria;
+  font-size: 4em;
+  text-align: center;/*WHY IS THIS NOT WORKING? PRECEDENCE?*/
+  border: 6px double bisque;
   display: flex;
   margin: 20 auto;
-  background: lavender;
+  background: rgb(140, 140, 193);
+  color:rgb(134, 84, 134);;
 }
 section{
   background-color: rgb(194, 141, 186);
-  border: 6px double lavender;
+  border: 6px double bisque;
+  text-align: center; /*BULLETS ARE SO FAR AWAY.....*/
 }
 body {
   background-color: rgb(160, 105, 153);
-  border: 3px dotted whitesmoke;
+  text-align: center;
+  color:darkslategrey;
 }
 
-#myInfo{
+.myInfo{
   text-align: center;
+
 }
 
 footer{
-  background-color: plum;
-  color:antiquewhite;
+  background-color: rgb(134, 84, 134);
+  color:bisque;
   font-size: .75em;
   font-style: italic;
   text-align: center;
@@ -41,9 +51,16 @@ footer{
 a:hover{
   background-color: black;
   color: plum;
+  text-transform: lowercase;
+  font-size: 1.5em;
 }
 
 /*getting rid of all underlines on links*/
 a:link{
   text-decoration: none;
+  color: darkslateblue;
+}
+#meee{
+  font-size: 0.7em;
+  font-style: italic;
 }
