@@ -3,8 +3,13 @@ body{
   font-family: Tahoma, Arial, sans-serif;
   color: #221811;
 }
+
+/*ID WRAPPER ADD TO WHAT EXACTLY???/*/
 main{
-  background-color: white;
+  background-color:#FEFAEB;
+  /*80% WIDTH TO WHAT???*/
+  margin-right: auto;
+  margin-left: auto;
 }
 header{
   color: #8C3826;
