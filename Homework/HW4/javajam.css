@@ -5,9 +5,9 @@ body{
 }
 
 /*ID WRAPPER ADD TO WHAT EXACTLY???/*/
-main{
+#WRAPPER{
   background-color:#FEFAEB;
-  /*80% WIDTH TO WHAT???*/
+  width: 80%;
   margin-right: auto;
   margin-left: auto;
 }
