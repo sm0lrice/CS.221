@@ -1,26 +1,39 @@
-p {
-  font-size: 1rem;
+
+
+#description {
+  font-family: 'Courier New';
 }
-
-#id {
-  border: 2px dotted green;
+#names{
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-.class {
-  border-radius: 4px;
+#myName{
+font-family: Cambria;
 }
-
-body {
-  background: green;
-}
-
-
 header {
-  width: 100%;
-  border: 8px dotted orange;
-  <!--display: flex;-->
-  align-items: center;
+  border: 8px double black;
+  display: flex;
   margin: 20 auto;
-  text-align: center;
-  background: yellow;
+  background: lavender;
+}
+body {
+  background: pink;
+  border: 8px dotted whitesmoke;
+ 
+}
+
+footer{
+  background-color: plum;
+  color:antiquewhite
+}
+
+/*for all links: changes the background color to black and color of the font to plum*/
+a:hover{
+  background-color: black;
+  color: plum;
+}
+
+/*getting rid of all underlines on links*/
+a:link{
+  text-decoration: none;
 }

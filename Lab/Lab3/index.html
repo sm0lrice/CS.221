@@ -3,46 +3,48 @@
 
 <head>
     <title>My website</title>
-    <link rel = "stylesheet" href="styles.css">//did i do this part right? 
+    <!--//did i do this part right? -->
+    <link rel = "stylesheet" href="styles.css">
  
 </head>
 
-<header>
-    <h1> Rielle Cajeras</h3> <!--my name-->
+
+
+<body>
+  <header>
+    <h1 id = "myName"> Rielle Cajeras</h3> <!--my name-->
     
-    <p> Hello, this is one of my primary attempts at creating a website with HTML.
+    <p class="description"> Hello, this is one of my primary attempts at creating a website with HTML.
     </p> <!--about me ( brief intro)-->
     
     <!--navigation links
     should i  make a table of links for organization? -->
     <nav>
         
-        <a href = "#me"> About me</a>
+        <a href = "#me" class="links" > About me</a>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href = "#projects"> Projects</a>
+        <a href = "#projects" class="links"> Projects</a>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a href = "#contactInfo"> Contact me</a>
+        <a href = "#contactInfo" class="links"> Contact me</a>
         
     </nav>
 </header>
-
-<body>
 
   <br><br><br><br><br><br>
   <!--about me section-->
 <section>
   <!--additional option: add image of myself?? -->
 
-  <h2 id ="me"> About me </h2>
+  <h2 id ="me" class="names"> About me </h2>
 
   <!--list of skills-->
   <ul>
-      <p><strong>Skills: </strong></p>
+      <h4 class="names"><strong>Skills: </strong></h4>
       <li>Creating websites</li>
       <li>Coding in Python, C, Java</li>
     <br>
   <!--hobbies & interests-->
-      <p><strong> Hobbies & Interests </strong></p>
+      <h4 class="names"><strong> Hobbies & Interests </strong></h4>
       <li>Building keyboards</li>
       <li>Playing all kinds of games</li>
   </ul>
@@ -51,16 +53,16 @@
 <br><br><br>
 <!--projects section-->
 <section>
-  <h2 id = "projects"> Projects: </h2>
+  <h2 id = "projects" class="names"> Projects: </h2>
   <ul>
-      <li><strong>Project: Pizza Form</strong></li>
-      <p>Description: Create a sample pizza form where users can enter the name they would like to use on the order, to pick up or deliver the order, the toppings they want on their pizza, and any delivery instructions.</p>
-      <a href = "https://github.com/sm0lrice/CS.221/blob/77523f2cc9b4f2f6b63f546492240ff9b0f01729/Homework/HW3/rcajeras.hw3.html"> Sample Pizza Form</a>
+      <li class="names"><strong>Project: Pizza Form</strong></li>
+      <p class="description">Description: Create a sample pizza form where users can enter the name they would like to use on the order, to pick up or deliver the order, the toppings they want on their pizza, and any delivery instructions.</p>
+      <a href = "https://github.com/sm0lrice/CS.221/blob/77523f2cc9b4f2f6b63f546492240ff9b0f01729/Homework/HW3/rcajeras.hw3.html" class="links"> Sample Pizza Form</a>
       <br><br><br><br>
 
-      <li><strong>Project: JavaJam Coffee Bar Website</strong></li>
-      <p>Description: Create a business website for JavaJam Coffee Bar where the user can access upcoming events, music, job openings, and the menu. </p>
-      <a href = "https://github.com/sm0lrice/CS.221/tree/18cbdb82187fde190edfa599d8d015ff345eaca0/Homework/HW2">JavaJam Coffee Bar Website Concept</a>
+      <li class="names"><strong>Project: JavaJam Coffee Bar Website</strong></li>
+      <p class="description">Description: Create a business website for JavaJam Coffee Bar where the user can access upcoming events, music, job openings, and the menu. </p>
+      <a href = "https://github.com/sm0lrice/CS.221/tree/18cbdb82187fde190edfa599d8d015ff345eaca0/Homework/HW2" class="links">JavaJam Coffee Bar Website Concept</a>
   </ul>
 </section>
 
@@ -68,10 +70,10 @@
 
 <!--contact information section-->
 <section>
-  <h5 id = "contactInfo">Contact Information</h5>
-  <a href = "mailto:rccajeras@uab.edu"><small>Email me</small></a> <!--email to anchor-->
+  <h5 id = "contactInfo" class="names">Contact Information</h5>
+  <a href = "mailto:rccajeras@uab.edu" class="links"><i><small>Email me</small></i></a> <!--email to anchor-->
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href = "https://github.com/sm0lrice/CS.221.git"><small>Github</small></a>
+  <a href = "https://github.com/sm0lrice/CS.221.git" class="links"><i><small>Github</small></a></i>
 </section>
 
 <br>
