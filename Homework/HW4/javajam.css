@@ -11,6 +11,7 @@ main{
   margin-right: auto;
   margin-left: auto;
 }
+
 header{
   color: #8C3826;
   background-color: #D2B48C;
@@ -19,6 +20,7 @@ header{
 
 h1{
   line-height: 200%;
+  /*font-family: Lobster;*/
 }
 
 h2{
@@ -27,7 +29,6 @@ h2{
 
 nav{
   text-align: center;
-  /*it is not bolding*/
   font-weight: 800;
 }
 
