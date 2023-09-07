@@ -1,44 +1,59 @@
-
-
-.description {
-  font-family: 'Courier New';
-  font-size: .75em;
-}
-/*Changed the mini intro text color to bisque for a good contrast*/
-#miniIntro{
-  color: bisque;
-}
-.names{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-align: center;
-}
-/*enhancing my name with double boders, different color, and align to the center*/
+/*enhancing my name with double colored boders, and align to the center, changed the font, flex display, different background colored background and font, add margins, and padding */
 #myName{
   font-family: Cambria;
   font-size: 4em;
   text-align: center;/*WHY IS THIS NOT WORKING? PRECEDENCE?*/
   border: 6px double bisque;
   display: flex;
-  margin: 20 auto;
+  margin: 20px;
   background: rgb(140, 140, 193);
   color:rgb(134, 84, 134);;
+  padding: 15px;
 }
+
+/*Changed the mini intro text color to bisque for a good contrast and added center alignment*/
+#miniIntro{
+  color: bisque;
+  text-align: center;
+}
+
+/*I wanted the nav bar to be in the center to to flow well with my mini intro and to contrast against my sections*/
+nav{
+  text-align: center;
+}
+/*Changed the font family of the headers, and sub headers*/
+.names{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*changed the font size under type of skills, and hobbies & interests and project descriptions*/
+.description {
+  font-family: 'Courier New';
+  font-size: .75em;
+}
+
+/*created a smaller space for the sections to contrast against my name, changed background color slightly and added a border*/
 section{
   background-color: rgb(194, 141, 186);
   border: 6px double bisque;
-  text-align: center; /*BULLETS ARE SO FAR AWAY.....*/
+  margin: 25px;
+  padding: 10px;
 }
+
+/**changed the main background color font color for contrast*/
 body {
   background-color: rgb(160, 105, 153);
-  text-align: center;
   color:darkslategrey;
 }
 
-.myInfo{
+/*Created a small border,  no padding, larger margins, so its different from my about me and projects & more visibly  different.. sorry I can't english well..*/
+#myInfo{
   text-align: center;
-
+  margin: 175px;
+  padding: 0%;
 }
 
+/*I wanted a suttle background color change, but still highlight the copyright information*/
 footer{
   background-color: rgb(134, 84, 134);
   color:bisque;
@@ -61,6 +76,8 @@ a:link{
   color: darkslateblue;
   font-size: medium;
 }
+
+/*Made my contact information links smaller and italicized to be more uniform on the bottom of the page*/
 #meee{
   font-size: 0.7em;
   font-style: italic;
