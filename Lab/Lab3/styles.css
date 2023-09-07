@@ -49,16 +49,17 @@ footer{
 
 /*for all links: changes the background color to black and color of the font to plum*/
 a:hover{
-  background-color: black;
+  background-color:rgb(140, 140, 193);
   color: plum;
   text-transform: lowercase;
-  font-size: 1.5em;
+  font-size: 3em;
 }
 
 /*getting rid of all underlines on links*/
 a:link{
   text-decoration: none;
   color: darkslateblue;
+  font-size: medium;
 }
 #meee{
   font-size: 0.7em;
