@@ -33,3 +33,9 @@ footer{
   font-style:italic;
 }
 
+a:hover{
+  text-decoration: none;
+  color: #8C3826;
+  font-weight: 700;
+}
+
