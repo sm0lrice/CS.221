@@ -3,6 +3,9 @@ body{
   font-family: Tahoma, Arial, sans-serif;
   color: #221811;
 }
+main{
+  background-color: white;
+}
 header{
   color: #8C3826;
   background-color: #D2B48C;
