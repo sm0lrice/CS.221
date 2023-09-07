@@ -16,15 +16,25 @@ header {
   margin: 20 auto;
   background: lavender;
 }
+section{
+  background-color: rgb(194, 141, 186);
+  border: 6px double lavender;
+}
 body {
-  background: pink;
-  border: 8px dotted whitesmoke;
- 
+  background-color: rgb(160, 105, 153);
+  border: 3px dotted whitesmoke;
+}
+
+#myInfo{
+  text-align: center;
 }
 
 footer{
   background-color: plum;
-  color:antiquewhite
+  color:antiquewhite;
+  font-size: .75em;
+  font-style: italic;
+  text-align: center;
 }
 
 /*for all links: changes the background color to black and color of the font to plum*/
