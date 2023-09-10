@@ -16,12 +16,15 @@
   color: bisque;
   text-align: center;
   font-size: 1em;
+  font-weight: 400;
 }
 
 /*nav bar: I wanted the nav bar to be in the center to flow well with my mini intro and to contrast against my sections*/
-nav {
+#nav {
   text-align: center;
+  font-size: 1.5em;
 }
+
 /*headers & subheaders: changed the font family of the headers, and sub headers*/
 .names {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -31,6 +34,7 @@ nav {
 .description {
   font-family: 'Courier New';
   font-size: .8em;
+  font-weight: 700;
 }
 
 /*about me & projects: created a smaller space for the sections to contrast against my name, changed background color slightly and added a border*/
@@ -50,9 +54,10 @@ body {
 /*contact information sectin: no border for better visibility,  no padding, larger margins, so its different from my about me and projects & visibly different.. sorry I can't english well..*/
 #myInfo {
   text-align: center;
-  margin: 300px;
+  margin: 425px;
   padding: .5%;
   border: none;
+  background-color: rgb(140, 140, 193);
 }
 
 /*footer: I wanted a suttle background color change, but still highlight the copyright information*/
@@ -68,7 +73,6 @@ footer {
 a:link {
   text-decoration: none;
   color: darkslateblue;
-  font-size: medium;
 }
 
 /*for all links: changes the background color to black and color of the font to plum*/
