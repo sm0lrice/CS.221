@@ -6,11 +6,6 @@ body{
 }
 
 
-h1 {
-  font-family: 'Lobster';
-}
-
-/*ID WRAPPER ADD TO WHAT EXACTLY???/*/
 #WRAPPER{
   background-color:#FEFAEB;
   width: 80%;
@@ -24,9 +19,10 @@ header{
   text-align: center;
 }
 
+/*JavaJam Coffee Bar header*/
 h1{
   line-height: 200%;
-  /*font-family: Lobster;*/
+  font-family: 'Lobster';
 }
 
 h2{
