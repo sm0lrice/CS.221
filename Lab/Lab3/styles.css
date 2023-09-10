@@ -54,7 +54,7 @@ body {
 /*contact information sectin: no border for better visibility,  no padding, larger margins, so its different from my about me and projects & visibly different.. sorry I can't english well..*/
 #myInfo {
   text-align: center;
-  margin: 425px;
+  margin: 200px;
   padding: .5%;
   border: none;
   background-color: rgb(140, 140, 193);
