@@ -1,5 +1,5 @@
-/*enhancing my name with double colored boders, and align to the center, changed the font, flex display, different background colored background and font, add margins, and padding */
-#myName {
+/*my name: Rielle Cajeras: enhancing my name with double colored boders, and align to the center, changed the font, flex display, different background colored background and font, add margins, and padding */
+#rl {
   font-family: Cambria;
   font-size: 4em;
   text-align: center; /*WHY IS THIS NOT WORKING? PRECEDENCE?*/
@@ -8,50 +8,51 @@
   margin: 20px;
   background: rgb(140, 140, 193);
   color: rgb(134, 84, 134);
-  padding: 15px;
+  padding: 20px;
 }
 
-/*Changed the mini intro text color to bisque for a good contrast and added center alignment*/
+/*miniIntro: Changed the mini intro text color to bisque for a good contrast and added center alignment*/
 #miniIntro {
   color: bisque;
   text-align: center;
+  font-size: 1em;
 }
 
-/*I wanted the nav bar to be in the center to to flow well with my mini intro and to contrast against my sections*/
+/*nav bar: I wanted the nav bar to be in the center to flow well with my mini intro and to contrast against my sections*/
 nav {
   text-align: center;
 }
-/*Changed the font family of the headers, and sub headers*/
+/*headers & subheaders: changed the font family of the headers, and sub headers*/
 .names {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/*changed the font size under type of skills, and hobbies & interests and project descriptions*/
+/*descriptions, type of skills, list of hobbies & interest: changed the font size and type*/
 .description {
   font-family: 'Courier New';
-  font-size: 0.75em;
+  font-size: .8em;
 }
 
-/*created a smaller space for the sections to contrast against my name, changed background color slightly and added a border*/
+/*about me & projects: created a smaller space for the sections to contrast against my name, changed background color slightly and added a border*/
 section {
   background-color: rgb(194, 141, 186);
   border: 6px double bisque;
-  margin: 25px;
-  padding: 10px;
+  margin: 100px;
+  padding: 15px;
 }
 
-/**changed the main background color font color for contrast*/
+/*changed the main background color font color for contrast*/
 body {
   background-color: rgb(160, 105, 153);
   color: darkslategrey;
 }
 
-/*contact information sectin: Created a small border,  no padding, larger margins, so its different from my about me and projects & more visibly  different.. sorry I can't english well..*/
+/*contact information sectin: no border for better visibility,  no padding, larger margins, so its different from my about me and projects & visibly different.. sorry I can't english well..*/
 #myInfo {
   text-align: center;
-  margin: 175px;
-  padding: 0%;
-
+  margin: 300px;
+  padding: .5%;
+  border: none;
 }
 
 /*footer: I wanted a suttle background color change, but still highlight the copyright information*/
@@ -75,10 +76,10 @@ a:hover {
   background-color: rgb(140, 140, 193);
   color: plum;
   text-transform: lowercase;
-  font-size: 3em;
+  font-size: 2em;
 }
 
-/*Made my contact information links smaller and italicized to be more uniform on the bottom of the page*/
+/*my contact information links:  smaller and italicized to be more uniform on the bottom of the page*/
 #meee {
   font-size: 0.7em;
   font-style: italic;
