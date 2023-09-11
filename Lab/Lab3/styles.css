@@ -83,7 +83,11 @@ a:hover {
 }
 
 /*my contact information links:  smaller and italicized to be more uniform on the bottom of the page*/
-#meee {
+#emailMe {
   font-size: 0.7em;
   font-style: italic;
+}
+#myGithub{
+    font-size: 0.7em;
+    font-style: italic;
 }
