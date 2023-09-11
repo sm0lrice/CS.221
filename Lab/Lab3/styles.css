@@ -4,7 +4,6 @@
   font-size: 4em;
   text-align: center; /*WHY IS THIS NOT WORKING? PRECEDENCE?*/
   border: 6px double bisque;
-  display: flex;
   margin: 20px;
   background: rgb(140, 140, 193);
   color: rgb(134, 84, 134);
