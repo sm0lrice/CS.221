@@ -29,6 +29,12 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+#photo{
+  border-style:dashed;
+  border-color: darkslategrey;
+  width: auto;
+}
+
 /*descriptions, type of skills, list of hobbies & interest: changed the font size and type*/
 .description {
   font-family: 'Courier New';
