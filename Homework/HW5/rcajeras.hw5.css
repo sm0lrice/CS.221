@@ -1,0 +1,39 @@
+/**{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+
+}*/
+
+header{
+  background-color: rgb(140, 140, 193);
+  border-bottom: groove rgb(206, 157, 189) 0.25em;
+  position: sticky;
+  font-size: 2em;
+  margin-bottom: 0%;
+  top: .25rem;/*just wanting to see how sticky works*/
+}
+
+main{
+  margin-top: 20%;
+  margin-right: auto;
+  margin-bottom: 0%;
+  margin-left: auto;
+  border-style: dashed;
+  background-color: rgb(89, 89, 164);
+  width: 80%;
+  color: bisque;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+  margin-top: 1%;
+  background-color: rgb(88, 88, 255);
+  width: 100%;
+  position:fixed;/*I don't understand why it vanishes when the main gains more content*/
+}
+
+p{
+  padding: 1em;
+  color: bisque;
+}
