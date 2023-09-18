@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 header{
@@ -15,7 +16,7 @@ header{
 main{
   margin-top: 20%;
   margin-right: auto;
-  margin-bottom: 0%;
+  margin-bottom: 20%;
   margin-left: auto;
   border-style: dashed;
   background-color: rgb(89, 89, 164);
