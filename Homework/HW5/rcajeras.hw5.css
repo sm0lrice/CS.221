@@ -32,6 +32,7 @@ footer{
   background-color: rgb(88, 88, 255);
   width: 100%;
   position:fixed;/*I don't understand why it vanishes when the main gains more content*/
+  bottom: 0%;
 }
 
 p{
