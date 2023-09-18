@@ -9,7 +9,7 @@ header{
   position: sticky;
   font-size: 2em;
   margin-bottom: 0%;
-  top: .25rem;/*just wanting to see how sticky works*/
+  top: 0rem;/*just wanting to see how sticky works*/
 }
 
 main{
