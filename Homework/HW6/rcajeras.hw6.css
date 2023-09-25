@@ -36,18 +36,27 @@ body{
   background-color: darkorchid;
   border-radius: 10%;
   border-style: dashed;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .grid-item-2{
   background-color: blueviolet;
   border-radius: 10%;
   border-style: dashed;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .grid-item-3{
   background-color: maroon;
   border-radius: 10%;
   border-style: dashed;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .grid-item-4{
@@ -56,12 +65,18 @@ body{
   border-style: dashed;
   grid-row: 2 / 3;
   grid-column: span 3;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .grid-item-5{
   background-color: darkgrey;
   border-radius: 10%;
   border-style: dashed;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .grid-item-6{
@@ -69,11 +84,17 @@ body{
   border-radius: 10%;
   border-style: dashed;
   text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 .grid-item-7{
   background-color: darkslateblue;
   border-radius: 10%;
   border-style: dashed;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
