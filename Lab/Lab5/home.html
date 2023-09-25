@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My website</title>
+    <link rel="stylesheet" href="lab5.css">
+</head>
+
+<body>
+    <header>
+        <!--my name-->
+        <h1 id="rl">Rielle Cajeras</h1>
+    </header>
+    <br><br>
+
+    <main>
+        <!--about me ( brief intro)-->
+        <p class="description" id="miniIntro"> Hello, this is one of my primary attempts at creating a website with
+            HTML.
+        </p>
+        <br><br>
+
+
+        <!--MY GRID-->
+        <div class = "grid-container">
+            <!--nav bar-->
+            <div id="navBar" class="row1">
+
+                <!--navigationlinks-->
+                <nav>
+                   <div><a href="#me" class="links"> About me</a></div>
+                   <div><a href="#projects" class="links"> Projects</a></div>
+                   <div><a href="#contantInfo" class="links"> Contact me</a></div>
+                </nav>
+    
+            </div>
+
+            <!--my image grid-->
+            <div  id="gridItem2" class="row1">
+            <!--image-->
+            <img id="photo"
+            src="https://github.com/sm0lrice/CS.221/blob/944aa02e04b471a4467af425d4fcd19ddc707f30/Lab/Lab3/myreddit.jpg?raw=true" alt="my custom free reddit photo" width="200" height="225">
+            </div>
+
+            <!--about me grid-->
+            <div id="aboutMe"  class="row1">
+               <h1 id="me" class="names">About me:</h1>
+                <!--subhead-->
+                <h3 class="names">Skills: </h3>
+                <!--list of skills-->
+                <ul>
+                    <li class="description">Creating Websites</li>
+                    <li class="description">Coding in Python, C, Java</li>
+                </ul>
+
+                <!--subhead-->
+                <h3 class="names"> Hobbies & Interests:</h3>
+
+                <!--list of hobbies & interesta-->
+                <ul>
+                    <li class="description">Building keyboards</li>
+                    <li class="description">Play a wide assortments of games</li>
+                </ul>
+            </div>
+
+            <div><!--projects header-->
+                <h1 id="projectsHead" class="names">Projects: </h1></div>
+
+            <!--project1 grid-->
+            <div id="p1" > 
+               
+                <h3 class="names" >Project: Pizza Form</h3>
+                <p class="description">Description: Create a sample pizza form where users can enter the name they would like to use on the order, to pick up or deliver the order, the toppings they want on their pizza, and any delivery instructions.</p>
+                <br>
+                <!--link to pizza form-->
+                <a href="https://github.com/sm0lrice/CS.221/blob/77523f2cc9b4f2f6b63f546492240ff9b0f01729/Homework/HW3/rcajeras.hw3.html"
+                    class="links"> Sample Pizza Form</a>
+            </div>
+
+            <!--project2 grid-->
+            <div id="p2">
+                <h3 class="names">Project: JavaJam Coffee Bar Website</h3>
+                <p class="description">Description: Create a business website for JavaJam Coffee Bar where the user can access upcoming event, music, job openings, and the menu. </p>
+                <br>
+                <!--link to project-->
+                <a href="https://github.com/sm0lrice/CS.221/tree/18cbdb82187fde190edfa599d8d015ff345eaca0/Homework/HW2" class="links">JavaJam Coffee Bar Website Concept</a>
+            </div>
+            <!--about me section-->
+        </div>
+
+        <br>
+    
+        <div id="callMeReachMe">
+            <h5 id="contactInfo" class="names">Contact Information</h5>
+            <!--email to anchor-->
+            <a href="mailto:rccajeras@uab.edu" class="links" id="emailMe">Email me</a> 
+            &nbsp;&nbsp;&nbsp;&nbsp;
+
+            <!--contact me through github-->
+            <a href="https://github.com/sm0lrice/CS.221.git" class="links" id="myGithub">Github</a>
+        </div>
+        <footer>Copyright. All rights reserved by Rielle C</footer>
+
+    </main>
+</body>
+
+</html>
