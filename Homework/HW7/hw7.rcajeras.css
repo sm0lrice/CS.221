@@ -17,6 +17,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: black;
+  font-family: 'Walter Turncoat';
 }
 
 header {
@@ -72,7 +73,7 @@ main {
   border-width: .5rem;
   /*curved corners*/
   border-radius: 3%;
-  font-family: 'Walter Turncoat';
+
   font-size: 1.2rem;
   /*background image */
   background-size: cover;
