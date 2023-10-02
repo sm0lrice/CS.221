@@ -1,126 +1,158 @@
-* {
+body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  background-color: black;
 }
 
+header {
+  color: bisque;
+  border-bottom: orange;
+  border-width: 1rem;
+  border-style: double;
+  margin-bottom: 100px;
+  top: 0;
+  position: sticky;
+  padding: 30px;
+}
 
 /*basic css for all photos*/
-section {
-  background-color: black;
+main {
+
   display: flex;
   height: 100vh;
   width: 100%;
   justify-content: center;
   align-items: center;
+
 }
 
 .grid-container {
-  background-color: darkslateblue;
-padding: 10%;
+  background-color: rgb(73, 68, 106);
+  padding: 10%;
   display: grid;
+  margin: 100px;
   justify-content: center;
   align-items: center;
-  /**why is this not working? 
-  grid-template-columns: repeat(auto-fill, minmax(300px, 300px)); */
   grid-template-columns: repeat(3, 300px);
   grid-template-rows: repeat(3, 300px);
-  gap: 1%;
+  gap: 3%;
   width: 90%;
-  border-color: pink;
+  border-color: orange;
   border-style: double;
 }
 
 .photo {
+  /*size of photo*/
   width: 300px;
   height: 300px;
   /*center content*/
   display: flex;
+  /*center textg*/
   justify-content: center;
   align-items: center;
+  /*center photo*/
+  background-position: center;
   /*border style*/
   border-style: double;
+  border-width: .5rem;
   /*curved corners*/
   border-radius: 3%;
   font-family: 'Walter Turncoat';
   font-size: 1.2rem;
+  /*background image */
+  background-size: cover;
+  opacity: 1;
 }
 
-/*so i made two classes, and neither show up... why....
-.borderOne{
-  border-style: dotted;
+/*increase size of each photo slightly whenever user hovers over the photo*/
+
+/*BONUS POINTS: NO HOVER FOR .H BECAUSE BOOP*/
+
+.photo:hover:not(.H) {
+  scale: 1.1;
+  /*the only way i was able to apply transparency*/
+  opacity: .5;
+  background: linear-gradient(rgba(0, 0, 0, 0.5));
 }
 
-.borderTwo{
+/*dash borders for every other even photo*/
+.photo:nth-child(even) {
   border-style: dashed;
 }
-*/
-
-/*MY IMAGES ARE TOOO BIGGGGGG*/
 
 .A {
   background-color: mediumslateblue;
   background-image: url("https://plus.unsplash.com/premium_photo-1694172058230-edf80b81134f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1364&q=80");
-  border-style: dashed;
-  /*when I had each photo with an inset border, this by itself wasn't showing the border
-  
-  after applying each other border, then adding the main border it goes it allows it... WTF*/
-  background-size: cover;
+
 }
 
 .B {
   background-color: mediumslateblue;
   background-image: url(https://images.unsplash.com/photo-1695249747530-57460a88ad80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
   color: bisque;
-  background-size: cover;
+
 }
 
 .C {
   background-color: mediumslateblue;
   background-image: url(https://plus.unsplash.com/premium_photo-1695305000127-5a9a2588f441?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1892&q=80);
-  border-style: dashed;
-  background-size: cover;
+
 }
 
 .D {
   background-color: mediumslateblue;
   background-image: url(https://plus.unsplash.com/premium_photo-1695757262775-007c3097f294?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1967&q=80);
-  background-size: cover;
+
 }
 
 .E {
   background-color: mediumslateblue;
   background-image: url(https://images.unsplash.com/photo-1695132823558-1e27b91e34ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1732&q=80);
   color: bisque;
-  border-style: dashed;
-  background-size: cover;
+
 }
 
 .F {
   background-color: mediumslateblue;
   background-image: url(https://plus.unsplash.com/premium_photo-1695304999967-a4d755bc9c4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80);
   color: bisque;
-  background-size: cover;
+
 }
 
 .G {
   background-color: mediumslateblue;
   background-image: url(https://plus.unsplash.com/premium_photo-1695058139884-6827b84bb7ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
-  border-style: dashed;
-  background-size: cover;
-
 }
 
 .H {
   background-color: mediumslateblue;
   background-image: url(https://plus.unsplash.com/premium_photo-1695593565482-42ab2ebf564e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1827&q=80);
-  background-size: cover;
+
 }
 
 .I {
   background-color: mediumslateblue;
   background-image: url(https://plus.unsplash.com/premium_photo-1694987867373-ac986a663a70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1888&q=80);
   color: bisque;
-  border-style: dashed;
-  background-size: cover;
+
 }
+
+/*BONUS POINTS: NO HOVER FOR .H BECAUSE BOOP
+it was working earlier then it stopped.
+.photo:hover::before:not(.H)
+.photo:hover::after:not(.H)*/
+
+.photo:hover::before {
+  content: 'quote: ';
+  color: orangered;
+  font-weight: 500px;
+  font-size: 1.2rem;
+}
+
+.photo:hover::after {
+  content: '🔎';
+}
+
+
+
