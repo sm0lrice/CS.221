@@ -1,5 +1,7 @@
 @media (max-width: 600px){
-
+  header{
+      width: 100%;
+  }
   .grid-container{
       grid-template-rows: auto;
       grid-template-columns: repeat(auto-fit,minmax(50px, 1fr));
@@ -17,7 +19,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   background-color: black;
-  font-family: 'Walter Turncoat';
+    font-family: 'Walter Turncoat';
 }
 
 header {
@@ -166,7 +168,7 @@ it was working earlier then it stopped.
 }
 
 .photo:hover::after {
-  content: '🔎';/*for some reason stackblitz doesnt like the emoji*/
+  content: '🔎';
 }
 
 
