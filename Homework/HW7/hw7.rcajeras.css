@@ -1,7 +1,5 @@
 @media (max-width: 600px){
-  header{
-      width: 100%;
-  }
+
   .grid-container{
       grid-template-rows: auto;
       grid-template-columns: repeat(auto-fit,minmax(50px, 1fr));
@@ -167,7 +165,7 @@ it was working earlier then it stopped.
 }
 
 .photo:hover::after {
-  content: '🔎';
+  content: '🔎';/*for some reason stackblitz doesnt like the emoji*/
 }
 
 
