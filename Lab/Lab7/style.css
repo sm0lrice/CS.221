@@ -211,6 +211,9 @@ a:hover {
       text-decoration: underline;
   }
 
+  .links{
+    color: rgb(140, 140, 193);
+  }
 
   .links::before {
       content: '| ';
