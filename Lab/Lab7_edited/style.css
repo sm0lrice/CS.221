@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(160, 105, 153);
+}
+
+header {
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.name {
+  font-family: 'Special Elite';
+  font-size: 4em;
+  text-align: center;
+
+  border: 6px double bisque;
+  margin: 20px;
+  padding: 20px;
+  background: rgb(140, 140, 193);
+  color: rgb(134, 84, 134);
+}
+
+.navBar {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: darkslateblue;
+}
+
+.brief {
+  margin: 60px;
+  padding: 20px;
+  font-size: 1.5rem;
+  color: bisque;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Nanum Pen Script';
+}
+
+.photo {
+  border: .25rem dashed darkslateblue;
+  width: fit-content;
+  margin-left: 40%;
+  margin-right: 40%;
+
+}
+
+
+
+.flex-container:not(.photo) {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1rem inset rgb(140, 140, 193);
+  background-color: rgb(155, 114, 149);
+}
+
+
+
+.flex-item {
+  margin: 10px;
+  padding: 30px;
+  border: .1rem dashed bisque
+}
+
+.deets {
+  color: rgb(51, 51, 51);
+  font-family: 'Nanum Pen Script';
+  font-size: 1.25rem;
+}
+
+.mainHead {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: bisque;
+  font-family: 'Luckiest Guy';
+}
+
+h4 {
+  font-family: 'Nanum Pen Script';
+  font-size: 1.5rem;
+  color: darkslateblue;
+}
+
+.projSectHead {
+  font-family: 'Nanum Pen Script';
+  color: darkslateblue;
+  font-size: 1.25rem;
+  text-decoration: underline;
+}
+
+#contactInfo {
+  display: flex;
+  justify-content: space-evenly
+}
+
+.links {
+  font-size: 1.25rem;
+  font-family: 'Nanum Pen Script';
+}
+
+a:link {
+  text-decoration: none;
+  color: darkslateblue;
+}
+
+/*for all links: changes the background color to black and color of the font to plum*/
+a:hover {
+  background-color: rgb(140, 140, 193);
+  color: plum;
+  text-transform: lowercase;
+  font-size: 2em;
+}
+
+.links:visited {
+  color: bisque;
+}
+
+.links:visited::before {
+  content: '| ';
+  color: rgb(140, 140, 193);
+}
+
+.links:visited::after {
+  content: '🖤 |';
+  color: rgb(140, 140, 193);
+}
+
+.copyright {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  bottom: 0%;
+  color: bisque;
+  font-size: 1.2em;
+  font-style: italic;
+  text-align: center;
+  font-family: 'Nanum Pen Script';
+}
+
+
+
+@media (max-width: 728px) {
+  body {
+      margin: 0;
+      padding: 0;
+      background-color: rgb(140, 140, 193);
+  }
+
+  .photo {
+      border-color: rgb(134, 84, 134);
+      width: fit-content;
+  }
+
+
+  .links::before {
+      content: '| ';
+      color: bisque;
+  }
+
+  .links::after {
+      content: ' |';
+      color: bisque;
+  }
+
+  .links:visited {
+      color: pink;
+  }
+}
+
+@media (max-width: 428px) {
+  /*@media (300px <= width <= 767){*/
+
+
+
+  .name {
+      font-size: 3rem;
+      margin: 5px;
+      padding: 10px;
+      font-family: 'Nanum Pen Script';
+  }
+
+  body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Nanum Pen Script';
+      background-color: black;
+  }
+
+  .brief {
+      font-size: 1.25rem;
+  }
+
+  .photo {
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+
+  .mainHead {
+      font-size: 1rem;
+      font-family: 'Nanum Pen Script';
+      text-decoration: underline;
+  }
+
+
+  .links::before {
+      content: '| ';
+      color: bisque;
+  }
+
+  .links::after {
+      content: ' |';
+      color: bisque;
+  }
+
+  .links:visited {
+      color: pink;
+  }
+
+  .links:visited::after{
+      content: '';
+  }
+
+  .links:visited::before{
+      content: '';
+  }
+
+  .flex-container:not(.photo) {
+      margin: 5px;
+      padding: 10px;
+      border: .5rem inset rgb(140, 140, 193);
+      ;
+  }
+
+  .flex-item {
+      margin: 5px;
+      padding: 10px;
+  }
+
+  .deets {
+      font-size: 1.25rem;
+  }
+
+}
