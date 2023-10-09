@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(160, 105, 153);
+
+}
+
+header {
+  margin: 10px;
+  padding: 10px;
+
+}
+
+
+.name {
+  font-family: Cambria;
+  font-size: 4em;
+  text-align: center;
+  border: 6px double bisque;
+  margin: 20px;
+  padding: 20px;
+  background: rgb(140, 140, 193);
+  color: rgb(134, 84, 134);
+}
+
+.navBar {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.brief {
+  margin: 60px;
+  padding: 20px;
+  font-size: 1.5rem;
+  color: bisque;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+.sections {
+  margin: 40px;
+  color: darkslateblue;
+}
+
+.flex-container {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1rem inset rgb(140, 140, 193);
+  background-color: rgb(155, 114, 149);
+}
+
+
+
+.flex-item {
+  margin: 10px;
+  padding: 30px;
+  border: .1rem dashed bisque
+}
+
+.deets {
+  color: rgb(51, 51, 51);
+}
+
+.mainHead {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: bisque;
+}
+
+
+#contactInfo{
+  display: flex;
+  justify-content:space-evenly
+
+}
+
+a:link {
+  text-decoration: none;
+  color: darkslateblue;
+}
+
+/*for all links: changes the background color to black and color of the font to plum*/
+a:hover {
+  background-color: rgb(140, 140, 193);
+  color: plum;
+  text-transform: lowercase;
+  font-size: 2em;
+}
+
+
+.copyright {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  bottom: 0%;
+  color: bisque;
+  font-size: 0.75em;
+  font-style: italic;
+  text-align: center;
+}
+
+@media(max-width: 400px) {
+  body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: rgb(160, 105, 153);
+  }
+}
+
+
+/*PRECEDENCE - TOP - LOW; BOTTOM - HIGH*/
+/*use percentage*/
+/*hamburger acts differently*/
+/*always have media query AT THE BOTTOM*/
+
+/*hoover effects dont work touchscreens*/
+/*ALT SHIFT A - TO MAKE IT A COMMENT*/
+/*media query arrange by size, biggest first, smallest last*/
+
+@media (max-width: 768) {}
+
+@media (max-width: 428) {}
