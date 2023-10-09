@@ -159,7 +159,10 @@ a:hover {
       width: fit-content;
   }
 
-
+  .links{
+    color: bisque;
+  }
+  
   .links::before {
       content: '| ';
       color: bisque;
