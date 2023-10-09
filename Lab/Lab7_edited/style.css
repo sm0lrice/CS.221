@@ -41,6 +41,7 @@ header {
   font-family: 'Nanum Pen Script';
 }
 
+
 .photo {
   border: .25rem dashed darkslateblue;
   width: fit-content;
@@ -130,7 +131,7 @@ a:hover {
 }
 
 .links:visited::after {
-  content: '🖤 |';
+  content: ' |';
   color: rgb(140, 140, 193);
 }
 
@@ -159,10 +160,7 @@ a:hover {
       width: fit-content;
   }
 
-  .links{
-    color: bisque;
-  }
-  
+
   .links::before {
       content: '| ';
       color: bisque;
