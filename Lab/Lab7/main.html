@@ -6,12 +6,14 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <!--add more fonts because I find these cool-->
     <style>
         @import url('https://fonts.googleapis.com/css?family=Nanum+Pen+Script');
         @import url('https://fonts.googleapis.com/css?family=Special+Elite');
         @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
     </style>
 
+    <!--added meta so my code wouldn't break my soul-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -19,27 +21,32 @@
     <header>
         <h1 class="name">Rielle Cajeras</h1>
 
+        <!--jump links: changed things around, and added resume <-(still trying to figure how it works)-->
         <div class="navBar">
             <div><a href="#mySkills" class="links"> Skills</a></div>
             <div><a href="#projects" class="links"> Projects</a></div>
             <div><a href="#meee" class="links"> About me</a></div>
             <div><a href="#contactInfo" class="links"> Contact Me</a></div>
-            <div><a href="" class="links"> Resume</a> <!--downloadable!!--></div>
+            <div><a href="" class="links"> Resume</a> <!--downloadable!! NOT YET--></div>
         </div>
     </header>
 
     <main>
+            <!--Added more to my intro-->
         <p class="brief">Hello! This is my Portfolio, and a work in progress as I learn CSS, HTML, and Javascript.
             Currently, I am pursuing my post baccalaureate(aka my second bachelor's degree). I am a curious person and I
             like to try new things. </p>
 
          <div  class="flex-container photo" >
             <!--image-->
+            <!--I didnt really see a need to adjust the image, because its tiny regardless what screen size it is, but I can if it is recommended that I do-->
             <img id="photo"
-    color: rgb(140, 140, 193); rgb(140, 140, 193);
             src="https://github.com/sm0lrice/CS.221/blob/944aa02e04b471a4467af425d4fcd19ddc707f30/Lab/Lab3/myreddit.jpg?raw=true" alt="my custom free reddit photo" width="200" height="225">
             </div>
 
+        <!--Changed from a grid layout to a flex container so that as the viewports changes, the items, borders, font sizes and everything will adjust and look better visually-->
+
+        <!--So I wanted to highlight my skills first, so I put these at the top and moved more interesting things about me at the bottom-->
         <div id="mySkills" class="sections">
             <div class="mainHead">
                 <h1>Technical Experience: </h1>
@@ -100,7 +107,9 @@
             </div><!--skill me -->
         </div>
 
+
         <!--PROJECTS-->
+        <!--Created 3 sections, changed my one project section to 3 separate coding project sections, and added empty projects for future use-->
         <div id="projects" class="sections">
 
             <h1 class="mainHead">Projects: </h1>
@@ -212,7 +221,7 @@
             </div><!--flexcontainer projects-->
 
 
-
+            <!--I thought adding it here would be like a fun or happy or interesting end to the site-->
             <div id="meee" class="sections">
                 <h1 class="mainHead">A little more about me: </h1>
 
@@ -256,6 +265,7 @@
 
         <br><br>
 
+        <!--got rid of the background, just created a flex container so it adjusts as the size of the viewport adjusts, made it simple, and added my linkedin-->
         <div id="contactInfo">
             <div><a href="mailto:rccajeras@uab.edu" class="links">Email me</a></div>
 
@@ -264,7 +274,7 @@
             <div><a href="https://linkedin.com/in/rielle-c-600a05b1" class="links">LinkedIn</a></div>
         </div>
 
-
+            <!--got rid of background and just made sure its at the bottom-->
         <div class="copyright">Copyright. All rights reserved by Rielle C</div>
     </footer>
 </body>

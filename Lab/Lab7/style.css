@@ -15,7 +15,6 @@ header {
   font-family: 'Special Elite';
   font-size: 4em;
   text-align: center;
-
   border: 6px double bisque;
   margin: 20px;
   padding: 20px;
@@ -23,6 +22,7 @@ header {
   color: rgb(134, 84, 134);
 }
 
+/*changed navBar for a better visual appeal*/
 .navBar {
   padding: 20px;
   display: flex;
@@ -50,8 +50,6 @@ header {
 
 }
 
-
-
 .flex-container:not(.photo) {
   margin: 20px;
   padding: 20px;
@@ -62,14 +60,14 @@ header {
   background-color: rgb(155, 114, 149);
 }
 
-
-
+/*created borders for each sub section for better readability*/
 .flex-item {
   margin: 10px;
   padding: 30px;
   border: .1rem dashed bisque
 }
 
+/*changed font color so its visible and font because its cute*/
 .deets {
   color: rgb(51, 51, 51);
   font-family: 'Nanum Pen Script';
@@ -113,14 +111,13 @@ a:link {
   color: darkslateblue;
 }
 
-/*for all links: changes the background color to black and color of the font to plum*/
 a:hover {
   background-color: rgb(140, 140, 193);
   color: plum;
   text-transform: lowercase;
   font-size: 2em;
 }
-
+/*this is new, just never knew how to do it till now*/
 .links:visited {
   color: bisque;
 }
@@ -146,8 +143,8 @@ a:hover {
   font-family: 'Nanum Pen Script';
 }
 
-
-
+/*tablet portrait view*/
+/*changed background color, font sizes, font family, added before and after for links, and visited links*/
 @media (max-width: 728px) {
   body {
       margin: 0;
@@ -181,6 +178,8 @@ a:hover {
   }
 }
 
+/*mobile view*/
+/*changed background colors, font sizes, font family, border sizes, margins, font colors especially for links that are visited, before and after*/
 @media (max-width: 428px) {
   /*@media (300px <= width <= 767){*/
 
