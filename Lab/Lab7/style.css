@@ -154,12 +154,17 @@ a:hover {
       padding: 0;
       background-color: rgb(140, 140, 193);
   }
-
+  .name{
+      font-size: 2.5rem;
+  }
   .photo {
       border-color: rgb(134, 84, 134);
       width: fit-content;
   }
 
+  .links{
+      color: rgb(51, 51, 51);
+  }
 
   .links::before {
       content: '| ';
@@ -206,13 +211,13 @@ a:hover {
   }
 
   .mainHead {
-      font-size: 1rem;
+      font-size: 1.75rem;
       font-family: 'Nanum Pen Script';
       text-decoration: underline;
   }
 
-  .links{
-    color: rgb(140, 140, 193);
+  .links {
+      color: rgb(140, 140, 193);
   }
 
   .links::before {
@@ -229,11 +234,11 @@ a:hover {
       color: pink;
   }
 
-  .links:visited::after{
+  .links:visited::after {
       content: '';
   }
 
-  .links:visited::before{
+  .links:visited::before {
       content: '';
   }
 
@@ -241,7 +246,7 @@ a:hover {
       margin: 5px;
       padding: 10px;
       border: .5rem inset rgb(140, 140, 193);
-      ;
+      
   }
 
   .flex-item {
