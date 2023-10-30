@@ -86,3 +86,11 @@ a:visited::before {
   object-fit: scale-down;
   aspect-ratio: 1/1;
 }
+
+td{
+  padding: 10px;
+}
+
+tr{
+  padding: 10px;
+}
