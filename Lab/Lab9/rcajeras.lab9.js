@@ -14,6 +14,7 @@ function ask() {
 function runIt() {
     //pc choice
     //random choice between 0 = (rock), 1 = (paper), 2 = (scissor)
+    //gon = computer
     let gonNum = Math.floor(Math.random() * 3);
     let gonChoice = '';
 
