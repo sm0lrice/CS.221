@@ -1,0 +1,88 @@
+body {
+  background-color: #FCEBB6;
+  font-family: Tahoma, Arial, sans-serif;
+  color: #221811;
+}
+
+
+#WRAPPER {
+  background-color: #FEFAEB;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+  color: #8C3826;
+  background-color: #D2B48C;
+  text-align: center;
+}
+
+/*JavaJam Coffee Bar header*/
+h1 {
+  line-height: 200%;
+  font-family: 'Lobster';
+}
+
+h2 {
+  color: #8C3826;
+}
+
+nav {
+  text-align: center;
+  font-weight: 800;
+  background-color: black;
+  padding: 20px;
+  color: #fefaeb;
+}
+
+footer {
+  background-color: #D2B48C;
+  font-size: .60em;
+  text-align: center;
+  font-style: italic;
+}
+
+/*all links(nav bar & email): got rid of the underline to the link, bolder text, and changed the color for hovering */
+a:hover {
+  text-decoration: none;
+  color: #8C3826;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+a {
+  color: #fefaeb;
+}
+
+/*why isnt it working... :((*/
+a:visited::before {
+  content: '🔮';
+}
+
+
+#turkishCoffee {
+  width: 100%;
+  object-fit: scale-down;
+  aspect-ratio: 1/1;
+}
+
+#beans {
+  width: 100%;
+  object-fit: scale-down;
+  aspect-ratio: 1/1;
+  transform: rotate(90deg);
+}
+
+#musicImage {
+  width: 100%;
+  object-fit:scale-down;
+  aspect-ratio: 1/1;
+}
+
+
+#coffeeHands {
+  width: 100%;
+  object-fit: scale-down;
+  aspect-ratio: 1/1;
+}
