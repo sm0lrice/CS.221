@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>Let's Play!!!!</title>
+    <script defer src="rcajeras.lab10.js"></script>
+    <style>
+        h1{
+            text-align: center;
+        }
+        body {
+            background-color: plum;
+            color: bisque;
+            font-size: 2.5rem;
+        }
+
+        .flexContainer {
+            display: flex;
+            border: 1em double black;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-weight: 600;
+            padding: 10px;
+            margin: 40px;
+            flex-direction: column;
+        }
+
+        .buttons {
+            padding: 15px;
+            margin: 20px;
+            border-radius: 50%;
+            font-weight: 800;
+            font-size: 1.5rem;
+        }
+        
+        #rockButton::before{
+            content: '🪨';
+        }
+
+        #paperButton::before{
+            content: '🧻';
+        }
+
+        #scissorButton::before{
+            content: '✂️';
+        }
+    </style>
+</head>
+
+
+<body>
+    <h1>Rock! Paper! Scissor!</h1>
+
+
+    <div class="flexContainer">
+        <p style="margin: 100px;">Choose rock, paper, or scissor and click the button to play!</p>
+
+
+        
+        <div class="flex itemRock">
+            <button id="rockButton" style="background-color: rgb(230, 157, 32);" class="buttons" type="button">
+                rock
+            </button>
+        </div>
+
+        <div class="flex itemPaper">
+            <button id="paperButton" style="background-color: rgb(68, 181, 125)" class="buttons" type="button">
+                paper
+            </button>
+        </div>
+
+        <div class="flex itemScissor">
+            <button id="scissorButton" style="background-color:rgb(238, 55, 55)" class="buttons" type="button">
+                scissor
+            </button>
+        </div>
+    </div>
+
+    <!--results-->
+    <div class="flexContainer">
+        <p id="result">boop</p>
+    </div>
+</body>
+
+</html>
