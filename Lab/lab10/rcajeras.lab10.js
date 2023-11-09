@@ -1,100 +1,61 @@
-
-
-
-// document.getElementById("para").textContent = 'UWAHHHHHHHH';
-
-// let result = document.getElementById('para');
-// result.textContent = "is this going to work?";
-
-
-
-
-let result = '';
-let gonChoice = '';
-let userChoice = '';
+let gonChoice = ''; // pc choice 
+let userChoice = ''; 
 
 const rockBtn = document.querySelector("#rockButton");
+rockBtn.addEventListener("click",rock);
 
-rockBtn.addEventListener("click", rock () {
-    userChoice = "rock";
-    console.log('user picked rock');
-}, false);
+const paperBtn = document.querySelector("#paperButton");
+paperBtn.addEventListener("click", paper);
 
+const scissorBtn = document.querySelector("#scissorButton");
+scissorBtn.addEventListener("click", scissor);
 
-const paperBtn = document.getElementById("paperButton");
-paperBtn.addEventListener("click", paper())
-
-const scissorBtn = document.getElementById("scissorButton");
-scissorBtn.addEventListener("click", scissor())
-
+function rock(){
+    userChoice = 'rock';
+    gonPlay();
+    outcome();
+}
 
 function paper(){
     userChoice = 'paper';
-    console.log('user picked paper');
+    gonPlay();
+    outcome();
 }
 
 function scissor(){
     userChoice = 'scissor';
-    console.log('user picked scissor');
+
+    gonPlay();
+    outcome();
 }
 
+/*
 //the function will generate a random choice between rock, paper, or scissor
+//random choice between 0 = (rock), 1 = (paper), 2 = (scissor)
+*/
 function gonPlay(){
-    //pc choice = gon choice
-    //random choice between 0 = (rock), 1 = (paper), 2 = (scissor)
+
     let gonNum = Math.floor(Math.random() * 3);
 
-
     //randomized gon choices, and turn it into a move
-    if (gonNum === 0) {
-        gonChoice = 'rock';
-    }
-    else if (gonNum === 1) {
-        gonChoice = 'paper';
-    }
-    else if (gonNum === 2) {
-        gonChoice = 'scissor';
-    }
+    if (gonNum === 0) {gonChoice = 'rock';}
+    else if (gonNum === 1) {gonChoice = 'paper';}
+    else if (gonNum === 2) {gonChoice = 'scissor';}
 }
 
+/*
+    the function checks if the user ties with gon or wins, else the user loses and displays in the bottom div.
+    Most of the emojis work i promise just use firefox!!!! 
+*/
+function outcome(){
+    if (userChoice === gonChoice) { document.querySelector("#result").textContent = 'It is a tie👔!!'; } //tie
 
+    else if (userChoice === 'rock' && gonChoice === 'scissor') { document.querySelector("#result").textContent = '🙌🏾User wins!!🙌🏾'; }
 
+    else if (userChoice === 'paper' && gonChoice === 'rock') { document.querySelector("#result").textContent = '🙌🏾User wins!!🙌🏾'; }
 
+    else if (userChoice === 'scissor' && gonChoice === 'paper') { document.querySelector("#result").textContent = '🙌🏾User wins!!🙌🏾'; }
 
-function check() {
-
-    //determine the winner
-    //tie
-    if (userChoice === gonChoice) {
-        result = "It's a tie!\n";
-    }
-
-    //user wins
-    //rock
-    else if (userChoice === 'rock' && gonChoice === 'scissor') {
-        result = "🎆User wins!!🎆\n";
-    }
-    //paper
-    else if (userChoice === 'paper' && gonChoice === 'rock') {
-        result = "🎆User wins!!🎆\n";
-    }
-    //scissor
-    else if (userChoice === 'scissor' && gonChoice === 'paper') {
-        result = "🎆User wins!!🎆\n";
-    }
-
-    //user loses
-    //scissor
-    else if (userChoice === 'scissor' && gonChoice === 'rock') {
-        result = "User loses!!😐\n";
-    }
-    //rock
-    else if (userChoice === 'rock' && gonChoice === 'paper') {
-        result = "User loses!!😐\n";
-    }
-    //paper
-    else if (userChoice === 'paper' && gonChoice === 'scissor') {
-        result = "User loses!!😐\n";
-    }
-
+    else {document.querySelector("#result").textContent = '😐 User lost! 😐' ; }    
 }
+
