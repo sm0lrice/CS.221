@@ -12,20 +12,16 @@ scissorBtn.addEventListener("click", scissor);
 
 function rock(){
     userChoice = 'rock';
-    gonPlay();
     outcome();
 }
 
 function paper(){
     userChoice = 'paper';
-    gonPlay();
     outcome();
 }
 
 function scissor(){
     userChoice = 'scissor';
-
-    gonPlay();
     outcome();
 }
 
@@ -48,6 +44,7 @@ function gonPlay(){
     Most of the emojis work i promise just use firefox!!!! 
 */
 function outcome(){
+    gonPlay();
     if (userChoice === gonChoice) { document.querySelector("#result").textContent = 'It is a tie👔!!'; } //tie
 
     else if (userChoice === 'rock' && gonChoice === 'scissor') { document.querySelector("#result").textContent = '🙌🏾User wins!!🙌🏾'; }
